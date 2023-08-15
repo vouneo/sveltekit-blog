@@ -1,5 +1,5 @@
 import { dev } from '$app/environment'
 
-export const title = 'Vouneo'
-export const description = 'Blog for doomers'
+export const title = 'sOmber'
+export const description = 'Blog for doomsters'
 export const url = dev ? 'http://localhost:5173/' : 'https://vouneo.com/'
