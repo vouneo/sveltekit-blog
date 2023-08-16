@@ -39,9 +39,11 @@
   .title {
     font-size: var(--font-size-fluid-3);
     text-transform: capitalize;
-    text-decoration: underline;
-    text-decoration-style: var(--teal-6);
-    text-decoration-thickness: 0.175rem;
+    text-decoration: none;
+  }
+
+  .title:visited {
+    
   }
 
   .date {

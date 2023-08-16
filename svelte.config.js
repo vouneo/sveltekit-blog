@@ -30,7 +30,15 @@ const config = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		prerender: {
+      handleHttpError: ({ path, referrer, message }) => {
+        // Puedes personalizar cómo manejar el error aquí
+        // Por ejemplo, puedes imprimir un mensaje de advertencia
+        console.warn(`Error during prerender for path: ${path} with referrer: ${referrer}`);
+      }
+    }
+		
 	}
 }
 

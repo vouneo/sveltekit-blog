@@ -7,7 +7,7 @@ html {
 	--font-mono: 'JetBrains Mono', monospace;
 
 	/* dark */
-	--brand-dark: var(--teal-6);
+	--brand-dark: var(--cyan-8);
 	--text-1-dark: var(--gray-3);
 	--text-2-dark: var(--gray-5);
 	--surface-1-dark: var(--gray-12);
@@ -18,7 +18,7 @@ html {
 	--border-dark: var(--gray-9);
 
 	/* light */
-	--brand-light: var(--orange-10);
+	--brand-light: var(--pink-8);
 	--text-1-light: var(--gray-8);
 	--text-2-light: var(--gray-7);
 	--surface-1-light: var(--gray-0);
@@ -113,6 +113,7 @@ li {
 	padding-inline-start: 0;
 }
 
+
 .surface-1 {
 	background-color: var(--surface-1);
 	color: var(--text-2);
@@ -140,6 +141,7 @@ li {
 
 .prose p:not(:is(h2, h3, h4, h5, h6) + p) {
 	margin-top: var(--size-7);
+
 }
 
 .prose :is(ul, ol) {
