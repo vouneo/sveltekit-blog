@@ -14,7 +14,8 @@ Maxi
 ![maxi2](/src/lib/images/pupis.02.jpeg)
 
 Peku
-![peku](/src/lib/imagespupis.03.jpeg)
+![peku](/src/lib/images/pupis.03.jpeg)
 
 Atena
 ![atena](/src/lib/images/pupis.01.jpeg)
+
