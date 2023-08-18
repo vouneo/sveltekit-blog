@@ -9,13 +9,14 @@ published: true
 ---
 
 Maxi
-![maxi1](/src/lib/images/pupis.00.jpeg)
+![maxi1](/lib/images/pupis.00.jpeg)
 
-![maxi2](/src/lib/images/pupis.02.jpeg)
+![maxi2](/lib/images/pupis.02.jpeg)
 
 Peku
-![peku](/src/lib/images/pupis.03.jpeg)
+![peku](/lib/images/pupis.03.jpeg)
 
 Atena
-![atena](/src/lib/images/pupis.01.jpeg)
+![atena](/lib/images/pupis.01.jpeg)
+
 
