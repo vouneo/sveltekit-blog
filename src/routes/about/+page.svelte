@@ -1,2 +1,2 @@
 <h1>About</h1>
-<p>Me gustan los paseos y las cositas</p>
+<p>Muchos pupis y diversión</p>
