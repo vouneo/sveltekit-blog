@@ -1,19 +1,30 @@
 ---
-title: First post
+title: Primer post
 description: First post.
-date: '2023-4-14'
+date: '2023-8-26'
 categories:
   - sveltekit
   - svelte
 published: true
 ---
 
-## Markdown
 
-Hey friends! 👋
+
+Primer post! 👋
+
+Innauguración del primer post del blog creado con Sveltekit
+
+![boat](/lib/images/boat-inn.jpg)  
+
+---
 
 ```ts
-function greet(name: string) {
-	console.log(`Hey ${name}! 👋`)
+function helloBlog(name: string) {
+  console.log(`Hey ${name}! 👋`);
 }
+
+let name = "vouneo";
+
+helloBlog(name);
+
 ```
