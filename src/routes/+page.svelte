@@ -42,9 +42,7 @@
     text-decoration: none;
   }
 
-  .title:visited {
-    
-  }
+  
 
   .date {
     color: var(--text-2)
