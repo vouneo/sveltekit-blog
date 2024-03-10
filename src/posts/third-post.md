@@ -1,13 +1,27 @@
 ---
-title: Post de prueba 
-description: tercer post.
-date: '2023-8-15'
+title: Pensando sobre black metal 
+description: meditaciones nocturnas
+date: '2024-03-11'
 categories:
-  - test
-  - svelte
-published: false
+  - black metal
+  - ideas
+published: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor risus eget diam tristique, nec faucibus neque congue. Nullam in odio nec sapien porttitor congue. Vivamus vitae nunc vel nulla tincidunt vulputate. Sed volutpat ipsum eu ligula efficitur facilisis. Nulla facilisi. Sed volutpat, enim sit amet varius commodo, mi ipsum ullamcorper libero, nec venenatis velit odio eget nunc. Vivamus in erat nulla. Curabitur at arcu ac urna tincidunt vulputate. Quisque bibendum, orci nec fringilla volutpat, justo metus rhoncus elit, ut convallis elit ligula sit amet turpis. Aenean vulputate, quam in varius faucibus, urna tellus varius velit, id tincidunt tellus arcu sed ex. Cras ac ex et turpis vulputate auctor. Sed auctor, lectus eget laoreet feugiat, libero urna scelerisque tellus, a vulputate libero arcu quis lorem. Maecenas pellentesque, ante non interdum egestas, massa mi volutpat mi, ut ultrices eros odio vitae elit.
+Desde hace un tiempo, resulta difícil hablar del género del metal sin considerar sus múltiples subcategorías, y el Black Metal (BM) se destaca como un caso particular en esta diversidad conceptual. En ocasiones, prescinde incluso de guitarras y baterías, alejándose notablemente de la influencia de bandas como Black Sabbath. En cierto punto, se desvinculó del género metalero y del "rock" para identificarse simplemente como música "black", por así decirlo. Al igual que el "blues" adquirió una identidad única, un arquetipo sensorial que evoca la melancolía, la opresión, la inmensidad del cielo o del mar, el "black" es la música que, a través de su folclore, su atmósfera o mediante el noise o el thrash, enfatiza el aspecto "negro" como símbolo de negación y muerte, explorando su dramatismo a través de la experiencia catártica del ritual. Este negro no solo representa el "lado oscuro", sino también lo desconocido, el universo, la noche, entre otros, siendo el equivalente religioso de la "luz".
+
 ---
-![eyes](/static/lib/images/img-test.jpeg)
+
+<div style="text-align: justify;  ">
+
+![black-metal](/lib/images/bm.jpg)
+
+</div>
+
+---
+
+Personalmente, no me atrae el Black Metal desde una perspectiva exclusivamente metalera. No me interesa la imagen mediática que promueve lo "políticamente incorrecto", haciendo referencia a ciertos subgéneros que abrazan ideologías controvertidas.
+
+Lo que sí me fascina, y aquí es donde veo un vínculo con otros géneros como el Neofolk, es el mito del hombre animal, el ser humano con sus sentidos religiosos desarrollados, arraigado a la tierra y conectado con el cosmos, venerando tanto la muerte como la vida como parte de un ciclo natural. Este hombre se ve invadido por conceptos sociales y culturales triviales impuestos coercitivamente, donde algunas ideologías globalizadas pueden "auratizar" los gritos desgarrados de este símbolo encarnado en el Black Metal. Es momento de reinterpretar las religiones, de representar nuevamente los avatares, de reencarnar los dioses olvidados.
+
+---

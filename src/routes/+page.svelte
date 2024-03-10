@@ -37,11 +37,15 @@
   }
 
   .title {
-    font-size: var(--font-size-fluid-3);
+    font-size: var(--font-size-fluid-2);
     text-transform: capitalize;
     text-decoration: none;
+    
   }
 
+  .title:visited {
+    color: #ba2960;
+  }
   
 
   .date {

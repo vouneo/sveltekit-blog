@@ -36,7 +36,7 @@
 		margin-inline: auto;
 		padding-inline: var(--size-7);
 	}
-
+	
 	main {
 		padding-block: var(--size-9);
 	}
