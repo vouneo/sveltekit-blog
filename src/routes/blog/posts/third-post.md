@@ -1,6 +1,6 @@
 ---
 title: Pensando sobre black metal 
-description: meditaciones nocturnas
+description: Meditaciones nocturnas
 date: '2024-03-11'
 categories:
   - black metal

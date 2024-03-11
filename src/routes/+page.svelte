@@ -9,8 +9,8 @@
   <title>{config.title}</title>
 </svelte:head>
 
-<section>
-  <ul class="posts">
+<section class="container">
+  <!-- <ul class="posts">
   {#each data.posts as post}
     <li class="post">
       <a href={post.slug} class="title">{post.title}</a>
@@ -18,7 +18,15 @@
       <p class="description">{post.description}</p>
     </li>    
   {/each}
-  </ul>
+  </ul> -->
+
+  <h2>Projects</h2>
+  <ul class="projects">
+    </ul>
+
+  <h2>Experience</h2>
+  <ul class="experience">
+    </ul>
 </section>
 
 <style>
