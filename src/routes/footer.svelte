@@ -4,7 +4,7 @@
 
 <!-- Footer -->
 <footer>
-	<p>carefully crafted by {config.footer} &copy {new Date().getFullYear()}</p>
+	<p>crafted by {config.footer} &copy {new Date().getFullYear()}</p>
 </footer>
 
 <style>
