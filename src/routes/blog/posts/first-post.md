@@ -14,7 +14,7 @@ Primer post! 👋
 
 Innauguración del primer post del blog creado con Sveltekit
 
-![boat](/lib/images/boat-inn.jpg)  
+![boat](/static/lib/images/boat-inn.jpg)  
 
 ---
 
