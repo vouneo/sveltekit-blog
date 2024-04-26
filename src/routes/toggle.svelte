@@ -30,7 +30,8 @@
 	}
 
 	button > * {
-		display: flex;
+		display: grid;
 		gap: var(--size-2);
+		grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
 	}
 </style>
