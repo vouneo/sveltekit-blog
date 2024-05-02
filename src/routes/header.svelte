@@ -1,6 +1,8 @@
 <script lang="ts">
 	import * as config from '$lib/config'
 	import Toggle from './toggle.svelte'
+
+	import '../app.css'
 </script>
 
 <nav>
@@ -66,6 +68,7 @@
 	a.title {
 		font-size: var(--size-7);
 		color: #c48529;
+		
 	}
 
 	@media (min-width: 768px) {

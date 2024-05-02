@@ -1,6 +1,8 @@
 <script lang="ts">
 	import * as config from '$lib/config'
-	import '../app.css'
+	import  '../app.css'
+
+	import Play from '../routes/play.svelte'
 
 </script>
 
@@ -11,6 +13,7 @@
 		<span class="magic">
 			<span class="magic-text">{config.footer}</span>
 		</span> &copy {new Date().getFullYear()}</p>
+	<Play />	
 </footer>
 
 <style>
@@ -37,28 +40,6 @@
 	p > .magic {
   		display: inline-block;
   		position: relative;
-	}
-
-	p > .magic > .magic-star {
-		--size: clamp(20px, 1.5vw, 30px);
-  
-		animation: scale 700ms ease forwards;
-		display: block;
-		height: var(--size);
-		left: var(--star-left);
-		position: absolute;
-		top: var(--star-top);
-		width: var(--size);
-	}
-
-	p > .magic > .magic-star > svg {
-		animation: rotate 1000ms linear infinite;
-		display: block;
-		opacity: 0.7;
-	}
-
-	p > .magic > .magic-star > svg > path {
-  		fill: var(--choco-6);
 	}
 
 	.magic > .magic-text {
