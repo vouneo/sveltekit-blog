@@ -2,8 +2,6 @@
 	import * as config from '$lib/config'
 	import  '../app.css'
 
-	import Play from '../routes/play.svelte'
-
 </script>
 
 <!-- Footer -->
@@ -13,7 +11,7 @@
 		<span class="magic">
 			<span class="magic-text">{config.footer}</span>
 		</span> &copy {new Date().getFullYear()}</p>
-	<Play />	
+		
 </footer>
 
 <style>
