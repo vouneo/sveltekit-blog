@@ -76,11 +76,14 @@
 	} 
 
 	.glitch {
-		background-clip: text;
 		color: rgb(143, 51, 108);
 		font-size: 60px;
 		position: relative;
-		
+		-webkit-text-stroke: 1px white; /* Borde rojo semi-transparente */
+		text-stroke: 1px white; /* Borde rojo semi-transparente */
+		color: transparent; /* Hace que el texto sea transparente */
+		-webkit-text-fill-color: rgb(143, 51, 108); /* Relleno blanco para el texto */
+		text-fill-color: rgb(143, 51, 108); 
 		}
 	.glitch::after {
 		content: attr(data-text);
@@ -92,7 +95,7 @@
 		
 		overflow: hidden;
 		clip: rect(0, 900px, 0, 0);
-		animation: animate-glitch 15s  linear alternate-reverse;
+		animation: animate-glitch /*infinite*/ 15s  linear alternate-reverse;
 		}
 
 	.glitch::before {
@@ -104,7 +107,7 @@
 		
 		overflow: hidden;
 		clip: rect(0, 900px, 0, 0);
-		animation: animate-glitch 15s  linear alternate-reverse;
+		animation: animate-glitch 15s /*infinite*/ linear alternate-reverse;
 		}
 
 		@keyframes animate-glitch {
