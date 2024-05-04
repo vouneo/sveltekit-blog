@@ -40,7 +40,7 @@
 
 <style>
 	nav {
-		padding-block: var(--size-7);
+		padding-block: var(--size-3);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
