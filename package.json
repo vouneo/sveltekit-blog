@@ -30,14 +30,17 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@fontsource/fredoka-one": "^5.0.5",
 		"@fontsource/jetbrains-mono": "^5.0.5",
 		"@fontsource/manrope": "^5.0.5",
+		"@threlte/core": "^7.3.0",
 		"gsap": "^3.12.5",
 		"lucide-svelte": "^0.259.0",
 		"open-props": "^1.5.10",
 		"rehype-slug": "^5.1.0",
 		"remark-toc": "^8.0.1",
 		"remark-unwrap-images": "^3.0.1",
-		"shiki": "^0.14.3"
+		"shiki": "^0.14.3",
+		"three": "^0.164.1"
 	}
 }

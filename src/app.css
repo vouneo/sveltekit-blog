@@ -1,8 +1,11 @@
 @import '@fontsource/manrope';
 @import '@fontsource/jetbrains-mono';
+@import '@fontsource/fredoka-one';
+
 
 html {
 	/* font */
+	--font-title: 'Fredoka One', sans-serif;
 	--font-sans: 'Manrope', sans-serif;
 	--font-mono: 'JetBrains Mono', monospace;
 

@@ -1,14 +1,14 @@
 <script lang="ts">
 	import * as config from '$lib/config'
 	import Toggle from './toggle.svelte'
-
 	import '../app.css'
+	
 </script>
 
 <nav>
   <!-- Title -->
-	<a href="/" class="title">
-		<b>{config.title}</b>
+  <a href="/" class="title glitch" data-text="sOmber">
+		{config.title}
 	</a>
 
   <!-- Navigation -->
@@ -60,17 +60,119 @@
 		align-items: center; /* Centra verticalmente el contenido */
 	}
 
+	li:hover {
+		color:rgb(143, 51, 108)
+	}
+
 	a {
 		color: inherit;
 		text-decoration: none;
 	}
 
-	a.title {
-		font-size: var(--size-7);
-		color: #c48529;
+	 .title {
+		font-family: var(--font-title);
 		
-	}
+		font-size: 40px;
+	} 
 
+	.glitch {
+		background-clip: text;
+		color: rgb(143, 51, 108);
+		font-size: 60px;
+		position: relative;
+		
+		}
+	.glitch::after {
+		content: attr(data-text);
+		position: absolute;
+		left: 10px;
+		
+		top: 0;
+		
+		
+		overflow: hidden;
+		clip: rect(0, 900px, 0, 0);
+		animation: animate-glitch 15s  linear alternate-reverse;
+		}
+
+	.glitch::before {
+		content: attr(data-text);
+		position: absolute;
+		left: -10px;
+		
+		top: 0;
+		
+		overflow: hidden;
+		clip: rect(0, 900px, 0, 0);
+		animation: animate-glitch 15s  linear alternate-reverse;
+		}
+
+		@keyframes animate-glitch {
+		0% {
+			clip: rect(99px, 9999px, 45px, 0);
+		}
+		5% {
+			clip: rect(7px, 9999px, 49px, 0);
+		}
+		10% {
+			clip: rect(52px, 9999px, 79px, 0);
+		}
+		15% {
+			clip: rect(51px, 9999px, 42px, 0);
+		}
+		20% {
+			clip: rect(37px, 9999px, 43px, 0);
+		}
+		25% {
+			clip: rect(38px, 9999px, 9px, 0);
+		}
+		30% {
+			clip: rect(34px, 9999px, 93px, 0);
+		}
+		35% {
+			clip: rect(18px, 9999px, 84px, 0);
+		}
+		40% {
+			clip: rect(100px, 9999px, 75px, 0);
+		}
+		45% {
+			clip: rect(15px, 9999px, 4px, 0);
+		}
+		50% {
+			clip: rect(14px, 9999px, 10px, 0);
+		}
+		55% {
+			clip: rect(4px, 9999px, 75px, 0);
+		}
+		60% {
+			clip: rect(17px, 9999px, 55px, 0);
+		}
+		65% {
+			clip: rect(75px, 9999px, 57px, 0);
+		}
+		70% {
+			clip: rect(39px, 9999px, 84px, 0);
+		}
+		75% {
+			clip: rect(96px, 9999px, 54px, 0);
+		}
+		80% {
+			clip: rect(45px, 9999px, 25px, 0);
+		}
+		85% {
+			clip: rect(60px, 9999px, 100px, 0);
+		}
+		90% {
+			clip: rect(5px, 9999px, 6px, 0);
+		}
+		95% {
+			clip: rect(49px, 9999px, 57px, 0);
+		}
+		100% {
+			clip: rect(54px, 9999px, 90px, 0);
+		}
+		}
+	
 	@media (min-width: 768px) {
 		nav {
 			display: flex;

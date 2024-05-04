@@ -1,6 +1,5 @@
 <script lang="ts">
   import * as config from '$lib/config'
-  
 </script> 
 
 <svelte:head>
@@ -12,6 +11,7 @@
   <h2>Projects</h2>
    
 </section>
+
 
 <style>
   
