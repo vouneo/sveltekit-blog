@@ -80,18 +80,16 @@
 		font-size: 60px;
 		position: relative;
 		-webkit-text-stroke: 1px white; /* Borde rojo semi-transparente */
-		text-stroke: 1px white; /* Borde rojo semi-transparente */
+		/*text-stroke: 1px white;  Borde rojo semi-transparente */
 		color: transparent; /* Hace que el texto sea transparente */
 		-webkit-text-fill-color: rgb(143, 51, 108); /* Relleno blanco para el texto */
-		text-fill-color: rgb(143, 51, 108); 
+		/* text-fill-color: rgb(143, 51, 108);  */
 		}
 	.glitch::after {
 		content: attr(data-text);
 		position: absolute;
 		left: 10px;
-		
-		top: 0;
-		
+		top: 0;		
 		
 		overflow: hidden;
 		clip: rect(0, 900px, 0, 0);
