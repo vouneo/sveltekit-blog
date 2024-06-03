@@ -29,9 +29,9 @@
 		<li>
 			<a href="/blog">Blog</a>
 		</li>
-		<li>
+		<!-- <li>
 			<a href="/contact">Resume</a>
-		</li>
+		</li> -->
 	</ul>
 
   <Toggle />
