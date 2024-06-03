@@ -3,8 +3,8 @@ title: Buscando propósito.
 description: Intrincado despertar (a veces)
 date: '2024-6-03'
 categories:
-  - pensamientos
-  - filosofía
+  - thoughts
+  
 published: true
 ---
 
