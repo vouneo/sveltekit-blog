@@ -50,14 +50,18 @@
 		margin-block: var(--size-7);
 		display: flex;
 		gap: var(--size-7);
+		grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+
 		margin-inline-start: auto; 
 		padding: left;
+		
 	}
 	.links li {
 		list-style-type: none;
 		display: flex; /* Aplica flexbox al elemento li */
 		justify-content: center; /* Centra horizontalmente el contenido */
 		align-items: center; /* Centra verticalmente el contenido */
+		
 	}
 
 	li:hover {
