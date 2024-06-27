@@ -6,7 +6,7 @@
 
 <!-- Footer -->
 <footer>
-	<p>crafted by 
+	<p>Crafted by 
 				
 		<span class="magic">
 			<span class="magic-text">{config.footer}</span>
@@ -20,6 +20,7 @@
 		border-top: 1px solid var(--border);
 	}
 
+	
 	@keyframes background-pan {
 		from {
 			background-position: 0% center;
@@ -33,6 +34,7 @@
 	
 	p {
 		color: var(--text-2);
+		
 	}
 
 	p > .magic {

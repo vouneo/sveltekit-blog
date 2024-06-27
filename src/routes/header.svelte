@@ -30,7 +30,7 @@
 			<a href="/blog">Blog</a>
 		</li>
 		<!-- <li>
-			<a href="/contact">Resume</a>
+			<a href="/contact">Resume</a>  CREAR ESTA SECCIÓN COMO CORRESPONDE
 		</li> -->
 	</ul>
 
