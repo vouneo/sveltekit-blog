@@ -1,101 +1,43 @@
-# Documentación del Proyecto: SvelteKit Blog
+
+# Blog Personal con SvelteKit y Markdown
 
 ## Introducción
 
-En esta documentación, exploraremos cómo creé este blog con makdown,que tenía como intención aprender a trabajar funcionalidades básicas de una aplicación full-stack desarrollada de punta a punta con este framework.
+Este proyecto es un blog personal creado con SvelteKit y Markdown. El objetivo principal es aprender a usar SvelteKit y tener un espacio donde pueda escribir sobre mis intereses de una manera más extensa que en redes sociales.
 
-## Requisitos Previos
+## Motivación
 
-Antes de comenzar, asegúrate de tener las siguientes herramientas y conocimientos en su lugar:
+Elegí trabajar con SvelteKit y Markdown porque son tecnologías nuevas que han resuelto muchas de las complejidades que presentan otras herramientas, tanto en su uso como en su implementación. Esto me permite enfocarme más en la creación de contenido y menos en la configuración técnica.
 
-Primero que nada, conocimientos básicos en Markdown, HTML, CSS y javascript, como los que tengo al momento de desarrollar este proyecto.
+## Funcionalidades Principales
 
-- [Lista de requisitos previos, como instalaciones de software y conocimientos técnicos]
+El blog está construido de manera sencilla utilizando archivos Markdown para el contenido y los estilos son aplicados con la ayuda de Open Props, lo que facilita el manejo de estilos consistentes.
 
-## Configuración Inicial
+### Funcionalidades Clave:
+- Publicación de posts a través de archivos Markdown.
+- Estilos personalizados con Open Props.
+- Animaciones y efectos visuales en el nombre del footer y el título del blog.
 
-### Instalación de SvelteKit
+## Desafíos Técnicos
 
-[Explicación de cómo instalaste SvelteKit y configuraste tu entorno de desarrollo.]
+El principal desafío fue implementar las rutas dentro de SvelteKit. Sin embargo, descubrí que es una de las funcionalidades más simples de este framework, lo que me permitió avanzar rápidamente en el proyecto.
 
-### Configuración de Vercel
+## Componentes Personalizados
 
-[Detalle de cómo configuraste Vercel para la implementación automática.]
+Desarrollé algunos componentes personalizados, entre los que destacan:
+- **Nombre en el Footer:** Implementé una animación de colores en gradiente que se desplaza constantemente, lo que le da un toque dinámico.
+- **Título del Blog:** El título cuenta con una animación al cargar la página por primera vez. Sin embargo, tengo planes de cambiar este efecto en futuras versiones.
 
-## Desarrollo Paso a Paso
+## Lecciones Aprendidas
 
-### Creación de Componentes
+Trabajar en este blog me permitió aprender a utilizar estilos con Open Props y a configurar el entorno de producción, lo que resultó ser una experiencia muy enriquecedora.
 
-[Explicación de cómo creaste y estructuraste los componentes de tu proyecto.]
+## Futuras Mejoras
 
-### Trabajo con mdsvex
+Tengo en mente algunas mejoras para el proyecto, entre ellas:
+- Mejorar el diseño del blog para hacerlo más atractivo visualmente.
+- Cambiar el dominio a uno personalizado para darle un toque más profesional.
 
-[Cómo integraste mdsvex para los posts en tu blog y cómo funcionó.]
+## Despliegue
 
-### Diseño Adaptable
-
-[Cómo abordaste el diseño adaptable y aseguraste que el blog se vea bien en diferentes dispositivos.]
-
-## Decisiones y Desafíos
-
-### Elección de Tecnologías
-
-[Por qué elegiste SvelteKit, mdsvex y otras tecnologías específicas.]
-
-### Superando Desafíos
-
-[Descripción de desafíos que enfrentaste y cómo los resolviste.]
-
-## Recursos Útiles
-
-- [Enlaces a tutoriales, documentación y recursos en línea que te ayudaron]
-
-## Conclusión
-
-En esta guía, hemos explorado el proceso de creación de [nombre de tu proyecto] utilizando [tecnologías utilizadas]. Espero que esta documentación te haya proporcionado información valiosa sobre cómo abordar un proyecto similar. Si tienes alguna pregunta o comentario, no dudes en dejarlos a continuación.
-
-¡Gracias por leer y espero que encuentres esta guía útil!
-
----
-
-[Nombre] - [Enlace a tu sitio web o perfil]
-
-
-# create-svelte
-
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+El despliegue del blog se realizó utilizando GitHub y Vercel. Ambos servicios están vinculados, lo que permite un despliegue automático cada vez que realizo cambios en el repositorio.
