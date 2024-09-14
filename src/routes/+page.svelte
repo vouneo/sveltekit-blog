@@ -1,30 +1,47 @@
 <script lang="ts">
-  import * as config from '$lib/config'
-</script> 
+	import * as config from '$lib/config'
+</script>
 
 <svelte:head>
-  <title>{config.title}</title>
+	<title>{config.title}</title>
 </svelte:head>
-  <section class="container">
-    
-    <article>
-      <h3>I'm Octavio!</h3><br>
-      <p>I am dedicated to transforming ideas into reality through thoughtful and meticulous work. My projects span creative endeavors and technological explorations, where I continuously push boundaries and embrace new challenges. Discover my full portfolio and interactive creations on my website..</p><br>
-      <p>Beyond my professional pursuits, I am committed to sharing knowledge. Through talks and blog posts, I aim to inspire and educate others in programming and open source.</p><br>
-      <p>When I'm not working, I immerse myself in exploring and learning about music, cinema, and other forms of art. My Instagram gallery reflects my passion for these creative pursuits. Based in Rancagua, Chile, I am always open to new connections and collaborations.</p><br> 
-      <p>Feel free to reach out!</p><br>
-  </article>
-     
-  </section>
-
+<section class="container">
+	<article>
+		<h2>Octavio García</h2>
+		<br />
+		<h3>Desarrollador Web Freelance</h3>
+		<br />
+		<p>
+			Me especializo en convertir ideas en soluciones digitales que aporten verdadero valor. Mi
+			trabajo abarca desde la creación de aplicaciones web hasta el mantenimiento de código ya
+			existente, siempre buscando mejorar la experiencia de los usuarios y ofrecer herramientas
+			eficientes para mis clientes.
+		</p>
+		<br />
+		<p>
+			Ofrezco servicios de desarrollo web completos, desde la conceptualización hasta el
+			lanzamiento, abarcando tanto el frontend como el backend. Además, puedo ayudarte con el
+			mantenimiento de sistemas y la formación de equipos en diversas áreas del desarrollo de
+			software.
+		</p>
+		<br />
+		<p>
+			Una de mis especialidades son las Aplicaciones Web Progresivas (PWAs), que imitan el
+			funcionamiento de aplicaciones móviles tradicionales, pero con menos complicaciones y mayor
+			accesibilidad. Son rápidas, eficientes y pueden instalarse directamente desde el navegador.
+		</p>
+		<br />
+		<p>
+			Con sede en Rancagua, Chile, estoy siempre abierto a nuevas colaboraciones y conexiones. Si
+			tienes un proyecto en mente o necesitas apoyo en desarrollo web, ¡no dudes en contactarme!
+		</p>
+		<br />
+	</article>
+</section>
 
 <style>
-  
-  .container {
-    display: grid;
-    place-content: center;
-    
-    
-  }
-
+	.container {
+		display: grid;
+		place-content: center;
+	}
 </style>
