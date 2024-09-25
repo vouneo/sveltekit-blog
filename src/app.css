@@ -10,7 +10,7 @@ html {
 	--font-mono: 'JetBrains Mono', monospace;
 
 	/* dark */
-	--brand-dark: var(--cyan-8);
+	--brand-dark: var(--pink-7);
 	--text-1-dark: var(--gray-3);
 	--text-2-dark: var(--gray-5);
 	--surface-1-dark: var(--gray-10);
