@@ -20,13 +20,12 @@
 
 <style>
 	button {
-		padding-left: 1rem;
+		padding: 0.3rem;
 		font-weight: inherit;
 		background: none;
 		border: none;
 		box-shadow: none;
 		overflow: hidden;
-
 	}
 
 	button > * {

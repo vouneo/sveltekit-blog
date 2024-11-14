@@ -36,9 +36,7 @@
 				</svg>
 			</a>
 		</li>
-		<li>
-			<a href="/blog">Blog</a>
-		</li>
+
 		<Toggle />
 	</ul>
 
