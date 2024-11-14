@@ -1,5 +1,5 @@
 <h1>About</h1>
-<p>Muchos pupis y diversión</p>
+<p>M</p>
 
 <div class="social-center">
   <a target="_blank" href="https://twitter.com/vouneo">

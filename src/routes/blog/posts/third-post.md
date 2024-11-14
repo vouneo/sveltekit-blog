@@ -18,7 +18,8 @@ Desde hace un tiempo, me resulta difícil hablar del género del metal sin consi
 src="https://www.youtube.com/embed/WY6fMcFjWfA" 
 frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen>
+allowfullscreen
+title="old wainds">
 </iframe>
 
 <br>
@@ -35,7 +36,9 @@ Lo que sí me fascina, y aquí es donde veo un vínculo con otros géneros como 
 src="https://www.youtube.com/embed/OPewdIxI0JE" 
 frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen>
+allowfullscreen
+title="ildjarn">
+
 </iframe>
 
 <br>

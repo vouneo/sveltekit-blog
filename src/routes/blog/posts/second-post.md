@@ -26,7 +26,8 @@ Esta lista nació hace un par de días, motivado por la búsqueda de música pri
 
 <br><br> <!-- Agregar dos líneas en blanco para más espacio -->
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0tiatZStbzZKqXQS0gcL87?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0tiatZStbzZKqXQS0gcL87?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+title="lista1"></iframe>
 
 ### Sobrevivir a 2023 ⚔️
 
@@ -34,7 +35,8 @@ Esta lista nació hace un par de días, motivado por la búsqueda de música pri
 
 <br><br>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5ydttdLIWo3WqgjmBtZgMs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5ydttdLIWo3WqgjmBtZgMs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+title="lista2"></iframe>
 
 ### Popurrí Radio Imagina 🥀
 Muy gótico se podrá ser, pero tengo un corazón más grande que la chucha pos cumpita 💖.
@@ -42,14 +44,16 @@ Si sentir así es un pecado, que me lleve el coleflecha 👹👿
 
 <br><br>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/65FjCyxdzelKkRs4uTG43a?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/65FjCyxdzelKkRs4uTG43a?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+title="lista3"></iframe>
 
 ### Doomero de corazón 💀💀
 
 A veces dan ganas de tener el corazón más frío y nublado. Si no dan ganas de hacer pan 🍞 es porque no está funcionando.
 <br><br>
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4L5Z4p3aRcsoVGtgnvBoS7?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4L5Z4p3aRcsoVGtgnvBoS7?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"
+title="lista4"></iframe>
 
 El estilo del sitio aún está en versión 0.1(?) pero tiempo al tiempo, que se viene la segunda parte.
 ![therock](/lib/images/therock.gif)
