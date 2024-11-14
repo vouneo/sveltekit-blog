@@ -9,7 +9,6 @@
 </svelte:head>
 
 <section id="recent-posts">
-	<h2>Posts recientes</h2>
 	<ul>
 		{#each data.posts as post}
 			<li class="post-card">
@@ -33,13 +32,6 @@
 		margin: 0 auto;
 		max-width: 800px;
 		padding: var(--size-5) var(--size-4);
-	}
-
-	h2 {
-		font-size: var(--font-size-fluid-2);
-		text-align: center;
-		margin-bottom: var(--size-4);
-		color: var(--text-1);
 	}
 
 	ul {
