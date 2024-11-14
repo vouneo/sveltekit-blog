@@ -1,47 +1,98 @@
 <script lang="ts">
+	import { formatDate } from '$lib/utils'
 	import * as config from '$lib/config'
+	export let data
 </script>
 
 <svelte:head>
 	<title>{config.title}</title>
 </svelte:head>
-<section class="container">
-	<article>
-		<h2>Octavio García</h2>
-		<br />
-		<h3>Desarrollador Web Freelance</h3>
-		<br />
-		<p>
-			Me especializo en convertir ideas en soluciones digitales que aporten verdadero valor. Mi
-			trabajo abarca desde la creación de aplicaciones web hasta el mantenimiento de código ya
-			existente, siempre buscando mejorar la experiencia de los usuarios y ofrecer herramientas
-			eficientes para mis clientes.
-		</p>
-		<br />
-		<p>
-			Ofrezco servicios de desarrollo web completos, desde la conceptualización hasta el
-			lanzamiento, abarcando tanto el frontend como el backend. Además, puedo ayudarte con el
-			mantenimiento de sistemas y la formación de equipos en diversas áreas del desarrollo de
-			software.
-		</p>
-		<br />
-		<p>
-			Una de mis especialidades son las Aplicaciones Web Progresivas (PWAs), que imitan el
-			funcionamiento de aplicaciones móviles tradicionales, pero con menos complicaciones y mayor
-			accesibilidad. Son rápidas, eficientes y pueden instalarse directamente desde el navegador.
-		</p>
-		<br />
-		<p>
-			Con sede en Rancagua, Chile, estoy siempre abierto a nuevas colaboraciones y conexiones. Si
-			tienes un proyecto en mente o necesitas apoyo en desarrollo web, ¡no dudes en contactarme!
-		</p>
-		<br />
-	</article>
+
+<section id="recent-posts">
+	<h2>Posts recientes</h2>
+	<ul>
+		{#each data.posts as post}
+			<li class="post-card">
+				<h3 class="post-title">
+					<a href={post.slug}>{post.title}</a>
+				</h3>
+				<div class="post-meta">
+					<span class="post-date">{formatDate(post.date)}</span>
+				</div>
+				<div class="post-content">
+					<p class="post-description">{post.description}</p>
+				</div>
+			</li>
+		{/each}
+	</ul>
 </section>
 
 <style>
-	.container {
-		display: grid;
-		place-content: center;
+	/* Estilos para la sección de posts recientes */
+	#recent-posts {
+		margin: 0 auto;
+		max-width: 800px;
+		padding: var(--size-5) var(--size-4);
+	}
+
+	h2 {
+		font-size: var(--font-size-fluid-2);
+		text-align: center;
+		margin-bottom: var(--size-4);
+		color: var(--text-1);
+	}
+
+	ul {
+		list-style-type: none;
+		padding: 0;
+	}
+
+	.post-card {
+		padding: var(--size-4);
+		border-bottom: 1px solid var(--border);
+		margin-bottom: var(--size-4);
+	}
+
+	.post-title a {
+		font-size: var(--font-size-fluid-1);
+		color: var(--brand);
+		text-decoration: none;
+		transition: color 0.2s ease-in-out;
+	}
+
+	.post-title a:hover {
+		color: var(--brand-dark); /* Color más oscuro en hover */
+	}
+
+	.post-meta {
+		margin-top: var(--size-1);
+		color: var(--text-2);
+		font-size: var(--font-size-0);
+	}
+
+	.post-content {
+		margin-top: var(--size-2);
+	}
+
+	.post-description {
+		color: var(--text-1);
+		font-size: var(--font-size-1);
+		line-height: 1.6;
+		margin: 0;
+	}
+
+	/* Responsivo para pantallas pequeñas */
+	@media (max-width: 768px) {
+		.post-card {
+			padding: var(--size-3);
+		}
+
+		.post-title a {
+			font-size: var(--font-size-fluid-1);
+		}
+
+		h2 {
+			font-size: var(--font-size-fluid-2);
+		}
 	}
 </style>
