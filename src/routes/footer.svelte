@@ -13,6 +13,7 @@
 		</span>
 		&copy; {new Date().getFullYear()}
 	</p>
+	<a rel="me" href="https://mastodon.social/@_vouneo">.</a>
 </footer>
 
 <style>
