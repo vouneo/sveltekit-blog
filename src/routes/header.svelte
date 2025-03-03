@@ -6,15 +6,17 @@
 
 <nav>
 	<!-- Title -->
-	<a href="/" class="title glitch" data-text="vOuneo">
+	<a href="/" class="title glitch" data-text="s0omber">
 		{config.title}
 	</a>
 
 	<!-- Navigation -->
-	<ul>
-
+	<div class="links flex items-center px-12">
+		<a href="/" class="text-gray-400 hover:text-white">Home</a>
+		<a href="/about" class="text-gray-400 hover:text-white">About</a>
+		<a href="/rss.xml" target="_blank" class="text-gray-400 hover:text-white">RSS</a>
 		<Toggle />
-	</ul>
+	</div>
 
 </nav>
 
@@ -40,16 +42,31 @@
 		list-style: none;
 	}
 
-	.links li {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-
 	a {
 		color: inherit;
 		text-decoration: none;
+		position: relative;
 	}
+
+	a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 6px; /* Aumentar grosor para hacerlo más visible */
+  background: linear-gradient(90deg, #9b59b6, #d8aceb, #ffbbff99); /* Colores más intensos */
+  transition: width 0.7s ease;
+  filter: blur(20px); /* Hacer el desenfoque más intenso */
+  box-shadow: 0 0 15px #ff00ff99; /* Añadir brillo al subrayado */
+}
+
+a:hover::after {
+  width: 100%;
+  filter: blur(6px); /* Mantener el desenfoque intenso en hover */
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.9); /* Aumentar brillo al hacer hover */
+}
+
 
 	.glitch {
 		color: rgb(143, 51, 108);

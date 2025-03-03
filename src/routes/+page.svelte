@@ -83,8 +83,5 @@
 			font-size: var(--font-size-fluid-1);
 		}
 
-		h2 {
-			font-size: var(--font-size-fluid-2);
-		}
 	}
 </style>
