@@ -1,4 +1,5 @@
-<h1>About</h1>
+<h1 class="text-4xl decoration-double
+ underline">About</h1>
 <p>M</p>
 
 <div class="social-center">
