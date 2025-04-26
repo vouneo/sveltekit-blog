@@ -77,7 +77,7 @@
 		justify-content: center;
 		width: 32px;
 		height: 32px;
-		padding: 4px;
+		padding: 8px;
 	}
 
 	.icon {
