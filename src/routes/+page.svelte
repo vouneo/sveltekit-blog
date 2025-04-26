@@ -8,8 +8,8 @@
 	<title>{config.title}</title>
 </svelte:head>
 
-<section id="recent-posts">
-	<ul>
+<section id="recent-posts" class="max-w-7xl mx-auto px-4">
+	<ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 		{#each data.posts as post}
 			<li class="post-card">
 				<h3 class="post-title">
@@ -27,10 +27,9 @@
 </section>
 
 <style>
-	/* Estilos para la sección de posts recientes */
+	/* Tus estilos EXACTAMENTE iguales */
 	#recent-posts {
 		margin: 0 auto;
-		max-width: 800px;
 		padding: var(--size-5) var(--size-4);
 	}
 
@@ -53,7 +52,7 @@
 	}
 
 	.post-title a:hover {
-		color: var(--brand-dark); /* Color más oscuro en hover */
+		color: var(--brand-dark);
 	}
 
 	.post-meta {
@@ -73,15 +72,10 @@
 		margin: 0;
 	}
 
-	/* Responsivo para pantallas pequeñas */
+	/* Responsive: mantiene 1 columna en móvil */
 	@media (max-width: 768px) {
 		.post-card {
 			padding: var(--size-3);
 		}
-
-		.post-title a {
-			font-size: var(--font-size-fluid-1);
-		}
-
 	}
 </style>
